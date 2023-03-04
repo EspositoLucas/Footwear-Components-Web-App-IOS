@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A029B6CA29B2825700445DA2 /* Fondos_Totys_Web_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029B6C929B2825700445DA2 /* Fondos_Totys_Web_AppApp.swift */; };
+		A029B6CC29B2825700445DA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029B6CB29B2825700445DA2 /* ContentView.swift */; };
+		A029B6CE29B2825800445DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A029B6CD29B2825800445DA2 /* Assets.xcassets */; };
+		A029B6D229B2825800445DA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A029B6D129B2825800445DA2 /* Preview Assets.xcassets */; };
+		A029B6DC29B2825800445DA2 /* Fondos_Totys_Web_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029B6DB29B2825800445DA2 /* Fondos_Totys_Web_AppTests.swift */; };
+		A029B6E629B2825800445DA2 /* Fondos_Totys_Web_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029B6E529B2825800445DA2 /* Fondos_Totys_Web_AppUITests.swift */; };
+		A029B6E829B2825800445DA2 /* Fondos_Totys_Web_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029B6E729B2825800445DA2 /* Fondos_Totys_Web_AppUITestsLaunchTests.swift */; };
+		A029B6F529B2842D00445DA2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A029B6F429B2842D00445DA2 /* WebView.swift */; };
+		A0732AA029B29C380025FF89 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0732A9F29B29C380025FF89 /* SplashScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A029B6D829B2825800445DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A029B6BE29B2825700445DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A029B6C529B2825700445DA2;
+			remoteInfo = "Fondos Totys Web App";
+		};
+		A029B6E229B2825800445DA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A029B6BE29B2825700445DA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A029B6C529B2825700445DA2;
+			remoteInfo = "Fondos Totys Web App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A029B6C629B2825700445DA2 /* Fondos Totys Web App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fondos Totys Web App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A029B6C929B2825700445DA2 /* Fondos_Totys_Web_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fondos_Totys_Web_AppApp.swift; sourceTree = "<group>"; };
+		A029B6CB29B2825700445DA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A029B6CD29B2825800445DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A029B6CF29B2825800445DA2 /* Fondos_Totys_Web_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fondos_Totys_Web_App.entitlements; sourceTree = "<group>"; };
+		A029B6D129B2825800445DA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A029B6D729B2825800445DA2 /* Fondos Totys Web AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fondos Totys Web AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A029B6DB29B2825800445DA2 /* Fondos_Totys_Web_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fondos_Totys_Web_AppTests.swift; sourceTree = "<group>"; };
+		A029B6E129B2825800445DA2 /* Fondos Totys Web AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fondos Totys Web AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A029B6E529B2825800445DA2 /* Fondos_Totys_Web_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fondos_Totys_Web_AppUITests.swift; sourceTree = "<group>"; };
+		A029B6E729B2825800445DA2 /* Fondos_Totys_Web_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fondos_Totys_Web_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A029B6F429B2842D00445DA2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		A0732A9F29B29C380025FF89 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A029B6C329B2825700445DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A029B6D429B2825800445DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A029B6DE29B2825800445DA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A029B6BD29B2825700445DA2 = {
+			isa = PBXGroup;
+			children = (
+				A029B6C829B2825700445DA2 /* Fondos Totys Web App */,
+				A029B6DA29B2825800445DA2 /* Fondos Totys Web AppTests */,
+				A029B6E429B2825800445DA2 /* Fondos Totys Web AppUITests */,
+				A029B6C729B2825700445DA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A029B6C729B2825700445DA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A029B6C629B2825700445DA2 /* Fondos Totys Web App.app */,
+				A029B6D729B2825800445DA2 /* Fondos Totys Web AppTests.xctest */,
+				A029B6E129B2825800445DA2 /* Fondos Totys Web AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A029B6C829B2825700445DA2 /* Fondos Totys Web App */ = {
+			isa = PBXGroup;
+			children = (
+				A029B6C929B2825700445DA2 /* Fondos_Totys_Web_AppApp.swift */,
+				A029B6CB29B2825700445DA2 /* ContentView.swift */,
+				A029B6CD29B2825800445DA2 /* Assets.xcassets */,
+				A029B6CF29B2825800445DA2 /* Fondos_Totys_Web_App.entitlements */,
+				A029B6D029B2825800445DA2 /* Preview Content */,
+				A029B6F429B2842D00445DA2 /* WebView.swift */,
+				A0732A9F29B29C380025FF89 /* SplashScreenView.swift */,
+			);
+			path = "Fondos Totys Web App";
+			sourceTree = "<group>";
+		};
+		A029B6D029B2825800445DA2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A029B6D129B2825800445DA2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A029B6DA29B2825800445DA2 /* Fondos Totys Web AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A029B6DB29B2825800445DA2 /* Fondos_Totys_Web_AppTests.swift */,
+			);
+			path = "Fondos Totys Web AppTests";
+			sourceTree = "<group>";
+		};
+		A029B6E429B2825800445DA2 /* Fondos Totys Web AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A029B6E529B2825800445DA2 /* Fondos_Totys_Web_AppUITests.swift */,
+				A029B6E729B2825800445DA2 /* Fondos_Totys_Web_AppUITestsLaunchTests.swift */,
+			);
+			path = "Fondos Totys Web AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A029B6C529B2825700445DA2 /* Fondos Totys Web App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A029B6EB29B2825800445DA2 /* Build configuration list for PBXNativeTarget "Fondos Totys Web App" */;
+			buildPhases = (
+				A029B6C229B2825700445DA2 /* Sources */,
+				A029B6C329B2825700445DA2 /* Frameworks */,
+				A029B6C429B2825700445DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fondos Totys Web App";
+			productName = "Fondos Totys Web App";
+			productReference = A029B6C629B2825700445DA2 /* Fondos Totys Web App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A029B6D629B2825800445DA2 /* Fondos Totys Web AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A029B6EE29B2825800445DA2 /* Build configuration list for PBXNativeTarget "Fondos Totys Web AppTests" */;
+			buildPhases = (
+				A029B6D329B2825800445DA2 /* Sources */,
+				A029B6D429B2825800445DA2 /* Frameworks */,
+				A029B6D529B2825800445DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A029B6D929B2825800445DA2 /* PBXTargetDependency */,
+			);
+			name = "Fondos Totys Web AppTests";
+			productName = "Fondos Totys Web AppTests";
+			productReference = A029B6D729B2825800445DA2 /* Fondos Totys Web AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A029B6E029B2825800445DA2 /* Fondos Totys Web AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A029B6F129B2825800445DA2 /* Build configuration list for PBXNativeTarget "Fondos Totys Web AppUITests" */;
+			buildPhases = (
+				A029B6DD29B2825800445DA2 /* Sources */,
+				A029B6DE29B2825800445DA2 /* Frameworks */,
+				A029B6DF29B2825800445DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A029B6E329B2825800445DA2 /* PBXTargetDependency */,
+			);
+			name = "Fondos Totys Web AppUITests";
+			productName = "Fondos Totys Web AppUITests";
+			productReference = A029B6E129B2825800445DA2 /* Fondos Totys Web AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A029B6BE29B2825700445DA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A029B6C529B2825700445DA2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A029B6D629B2825800445DA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A029B6C529B2825700445DA2;
+					};
+					A029B6E029B2825800445DA2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A029B6C529B2825700445DA2;
+					};
+				};
+			};
+			buildConfigurationList = A029B6C129B2825700445DA2 /* Build configuration list for PBXProject "Fondos Totys Web App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A029B6BD29B2825700445DA2;
+			productRefGroup = A029B6C729B2825700445DA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A029B6C529B2825700445DA2 /* Fondos Totys Web App */,
+				A029B6D629B2825800445DA2 /* Fondos Totys Web AppTests */,
+				A029B6E029B2825800445DA2 /* Fondos Totys Web AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A029B6C429B2825700445DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A029B6D229B2825800445DA2 /* Preview Assets.xcassets in Resources */,
+				A029B6CE29B2825800445DA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A029B6D529B2825800445DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A029B6DF29B2825800445DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A029B6C229B2825700445DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A029B6F529B2842D00445DA2 /* WebView.swift in Sources */,
+				A029B6CC29B2825700445DA2 /* ContentView.swift in Sources */,
+				A029B6CA29B2825700445DA2 /* Fondos_Totys_Web_AppApp.swift in Sources */,
+				A0732AA029B29C380025FF89 /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A029B6D329B2825800445DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A029B6DC29B2825800445DA2 /* Fondos_Totys_Web_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A029B6DD29B2825800445DA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A029B6E829B2825800445DA2 /* Fondos_Totys_Web_AppUITestsLaunchTests.swift in Sources */,
+				A029B6E629B2825800445DA2 /* Fondos_Totys_Web_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A029B6D929B2825800445DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A029B6C529B2825700445DA2 /* Fondos Totys Web App */;
+			targetProxy = A029B6D829B2825800445DA2 /* PBXContainerItemProxy */;
+		};
+		A029B6E329B2825800445DA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A029B6C529B2825700445DA2 /* Fondos Totys Web App */;
+			targetProxy = A029B6E229B2825800445DA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A029B6E929B2825800445DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A029B6EA29B2825800445DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A029B6EC29B2825800445DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fondos Totys Web App/Fondos_Totys_Web_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fondos Totys Web App/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4QSVT4GBP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fondostotys.Fondos-Totys-Web-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A029B6ED29B2825800445DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fondos Totys Web App/Fondos_Totys_Web_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fondos Totys Web App/Preview Content\"";
+				DEVELOPMENT_TEAM = Y4QSVT4GBP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fondostotys.Fondos-Totys-Web-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A029B6EF29B2825800445DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4QSVT4GBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fondostotys.Fondos-Totys-Web-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fondos Totys Web App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fondos Totys Web App";
+			};
+			name = Debug;
+		};
+		A029B6F029B2825800445DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4QSVT4GBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fondostotys.Fondos-Totys-Web-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fondos Totys Web App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fondos Totys Web App";
+			};
+			name = Release;
+		};
+		A029B6F229B2825800445DA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4QSVT4GBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fondostotys.Fondos-Totys-Web-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fondos Totys Web App";
+			};
+			name = Debug;
+		};
+		A029B6F329B2825800445DA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4QSVT4GBP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fondostotys.Fondos-Totys-Web-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fondos Totys Web App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A029B6C129B2825700445DA2 /* Build configuration list for PBXProject "Fondos Totys Web App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A029B6E929B2825800445DA2 /* Debug */,
+				A029B6EA29B2825800445DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A029B6EB29B2825800445DA2 /* Build configuration list for PBXNativeTarget "Fondos Totys Web App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A029B6EC29B2825800445DA2 /* Debug */,
+				A029B6ED29B2825800445DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A029B6EE29B2825800445DA2 /* Build configuration list for PBXNativeTarget "Fondos Totys Web AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A029B6EF29B2825800445DA2 /* Debug */,
+				A029B6F029B2825800445DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A029B6F129B2825800445DA2 /* Build configuration list for PBXNativeTarget "Fondos Totys Web AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A029B6F229B2825800445DA2 /* Debug */,
+				A029B6F329B2825800445DA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A029B6BE29B2825700445DA2 /* Project object */;
+}
